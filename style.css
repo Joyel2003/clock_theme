@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.3s, color 0.3s;
+}
+.clock {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: inline-block;
+}
+.theme-toggle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.light-mode {
+    background: #fff;
+    color: #333;
+}
+.dark-mode {
+    background: #333;
+    color: #fff;
+}
+.dark-mode .clock {
+    background: rgba(0, 0, 0, 0.2);
+}
