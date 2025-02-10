@@ -1,5 +1,5 @@
-function updateClock() {
-    let now = new Date();
+function updateClock(){
+    let now = new Date ();
     let hours = now.getHours();
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
@@ -12,7 +12,7 @@ function updateClock() {
     document.getElementById("clock").innerText = `${hours}:${minutes}:${seconds} ${ampm}`;
 }
 
-function toggleTheme() {
+function toogleTheme(){
     document.body.classList.toggle("dark-mode");
     document.body.classList.toggle("light-mode");
 }
