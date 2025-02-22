@@ -1,1 +1,1 @@
-#clock theme
+clock theme
